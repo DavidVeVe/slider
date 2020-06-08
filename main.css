@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+
+.slider {
+  width: 250px;
+  height: 50%;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.photos {
+  width: 750px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  right: 250px;
+  transition: 1s;
+}
+
+.photo {
+  width: 250px;
+  height: 300px;
+  transition: 1s;
+}
+
+.first {
+  background-color: blue;
+  transition: 1s;
+}
+
+.second {
+  background-color: teal;
+  transition: 1s;
+}
+
+.third {
+  background-color: yellow;
+}
